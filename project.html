@@ -1,0 +1,37 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Your App</title>
+</head>
+<body>
+    <div id="app">
+        <!-- Login Page -->
+        <div id="login-page" class="page">
+            <h1>Login</h1>
+            <form id="login-form" onsubmit="login(event)">
+                <label for="email">Email:</label>
+                <input type="text" id="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Login</button>
+                <p id="error-message"></p>
+            </form>
+        </div>
+
+        <!-- Home Page -->
+        <div id="home-page" class="page">
+            <h1>Home</h1>
+            <div id="image-grid"></div>.
+            <a href="./page1.html">next</a>
+            <img src="./public/image5.jpeg"/>
+            
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
